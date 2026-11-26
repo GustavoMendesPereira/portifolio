@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Gustavo Mendes Pereira — Suporte Técnico, Cibersegurança, Automação e Análise de Sistemas">
+  <title>Gustavo Mendes Pereira | Suporte Técnico, Segurança & Automação</title>
+  <!-- Pré-conexão para fonts Google (performance) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonte monoespçada para vibe terminal/tech -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Skip link para acessibilidade (pula navegação direto pro conteúdo) -->
+  <a href="#main" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- Cabeçalho fixo com navegação -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <!-- Logo/Identidade visual -->
+      <a href="#" class="logo" aria-label="DevSec Portfolio - Início">
+        <span class="logo__bracket"><</span>
+        <span class="logo__text">devsec</span>
+        <span class="logo__bracket">/</span>
+        <span class="logo__accent">portfolio</span>
+        <span class="logo__bracket">></span>
+      </a>
+
+      <!-- Navegação principal -->
+      <nav class="nav" role="navigation" aria-label="Navegação principal">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Alternar menu de navegação" type="button">
+          <span class="nav__hamburger" aria-hidden="true"></span>
+        </button>
+        <ul id="nav-menu" class="nav__list" role="menubar">
+          <li role="none"><a href="#sobre" class="nav__link" role="menuitem">Sobre</a></li>
+          <li role="none"><a href="#projetos" class="nav__link" role="menuitem">Projetos</a></li>
+          <li role="none"><a href="#experiencia" class="nav__link" role="menuitem">Experiência</a></li>
+          <li role="none"><a href="#formacao" class="nav__link" role="menuitem">Formação</a></li>
+          <li role="none"><a href="#contato" class="nav__link" role="menuitem">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main id="main" role="main">
+
+    <!-- SEÇÃO: Hero / Apresentação -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 id="hero-title" class="hero__title">
+            Olá, sou <span class="hero__name">Gustavo Mendes Pereira</span>
+          </h1>
+          <p class="hero__subtitle">
+            <span class="hero__role" id="typing-target">Estudante ADS | Suporte Técnico & Segurança</span>
+            <span class="hero__cursor" aria-hidden="true">█</span>
+          </p>
+          <div class="hero__tags" aria-label="Áreas de atuação">
+            <span class="tag tag--sec">Suporte Técnico N1</span>
+            <span class="tag tag--backend">Cibersegurança & Monitoramento</span>
+            <span class="tag tag--cloud">Automação Python</span>
+          </div>
+          <div class="hero__cta">
+            <a href="#projetos" class="btn btn--primary">Ver Projetos</a>
+            <a href="#contato" class="btn btn--ghost">Entrar em Contato</a>
+            <a href="curriculo.pdf" class="btn btn--ghost" download="Curriculo_Gustavo_Mendes_Pereira.pdf" aria-label="Baixar currículo em PDF">
+              <span aria-hidden="true">⬇</span> Baixar CV
+            </a>
+          </div>
+        </div>
+        <!-- Foto de perfil -->
+        <div class="hero__profile" aria-hidden="true">
+          <img src="118492103.jpg" alt="Gustavo Mendes Pereira" class="hero__avatar" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: Sobre + Skills -->
+    <section id="sobre" class="section section--sobre" aria-labelledby="sobre-title">
+      <div class="container">
+        <header class="section__header">
+          <h2 id="sobre-title" class="section__title">
+            <span class="section__bracket">[</span> Sobre <span class="section__bracket">]</span>
+          </h2>
+          <p class="section__subtitle">Quem sou, o que faço e as tecnologias que domino</p>
+        </header>
+
+        <div class="sobre__grid">
+          <!-- Bio -->
+          <article class="sobre__bio" aria-labelledby="bio-title">
+            <h3 id="bio-title" class="sobre__subtitle">Perfil</h3>
+            <p class="sobre__text">
+              Sou estudante universitário de <strong>Análise e Desenvolvimento de Sistemas</strong> na UDF, com foco em cibersegurança e desenvolvimento back-end. Atualmente, atuo como técnico de suporte N1 no Hospital Santa Lúcia Sul, prestando suporte via help-desk a todos hospitais, realizando triagem de chamados em call center e escalonando chamados para seus devidos setores.
+            </p>
+            <p class="sobre__text">
+              Anteriormente, tive experiência prática na área de segurança da informação como estagiário na BlueEye Cibersegurança, atuando no monitoramento ativo de estações e servidores com Symantec e Trellix, na investigação de alertas, URLs e arquivos suspeitos, no escalonamento de incidentes e na elaboração de relatórios técnicos. Tenho base em Python, lógica de programação, Windows OS, Linux, Redes, e inglês intermediário.
+            </p>
+                        <ul class="sobre__highlights" aria-label="Destaques profissionais">
+              <li><strong>Suporte N1</strong> — Help desk, instalações remotas (AnyDesk), triagem e escalonamento</li>
+              <li><strong>Monitoramento:</strong> Acompanhamento de métricas de servidores, alertas de sobrecarga</li>
+              <li><strong>Segurança:</strong> Monitoramento Symantec/Trellix, SIEM, resposta a incidentes</li>
+              <li><strong>Base técnica:</strong> Python, Linux, Redes, Windows OS | Inglês Intermediário</li>
+              <li><strong>Formação:</strong> ADS na UDF (2026–2027)</li>
+            </ul>
+          </article>
+
+          <!-- Skills divididas em duas colunas temáticas -->
+          <div class="sobre__skills" aria-labelledby="skills-title">
+            <h3 id="skills-title" class="sobre__subtitle">Stack Técnica</h3>
+
+            <!-- Coluna: Suporte & Service Desk -->
+            <div class="skills__category" aria-labelledby="suporte-skills-title">
+              <h4 id="suporte-skills-title" class="skills__category-title skills__category-title--sec">
+                <span class="skills__icon" aria-hidden="true">🖥️</span> Suporte & Service Desk
+              </h4>
+              <ul class="skills__list" role="list">
+                <li class="skill" data-category="sec"><span class="skill__name">Atendimento N1 / Help Desk</span><span class="skill__level" style="--level: 90%"></span></li>
+                <li class="skill" data-category="sec"><span class="skill__name">Suporte remoto (AnyDesk) & Instalações</span><span class="skill__level" style="--level: 85%"></span></li>
+                <li class="skill" data-category="sec"><span class="skill__name">Triagem & Escalonamento de chamados</span><span class="skill__level" style="--level: 88%"></span></li>
+                <li class="skill" data-category="sec"><span class="skill__name">Monitoramento de servidores (métricas/alertas)</span><span class="skill__level" style="--level: 80%"></span></li>
+              </ul>
+            </div>
+
+            <!-- Coluna: Segurança & Automação -->
+            <div class="skills__category" aria-labelledby="sec-auto-skills-title">
+              <h4 id="sec-auto-skills-title" class="skills__category-title skills__category-title--backend">
+                <span class="skills__icon" aria-hidden="true">🔐</span> Segurança & Automação
+              </h4>
+              <ul class="skills__list" role="list">
+                <li class="skill" data-category="backend"><span class="skill__name">Monitoramento Endpoints (Symantec, Trellix)</span><span class="skill__level" style="--level: 85%"></span></li>
+                <li class="skill" data-category="backend"><span class="skill__name">SIEM & Análise de Alertas</span><span class="skill__level" style="--level: 80%"></span></li>
+                <li class="skill" data-category="backend"><span class="skill__name">Perícia Técnica / Investigação Incidentes</span><span class="skill__level" style="--level: 75%"></span></li>
+                <li class="skill" data-category="backend"><span class="skill__name">Python — Automação & Scripts</span><span class="skill__level" style="--level: 78%"></span></li>
+                <li class="skill" data-category="backend"><span class="skill__name">Linux & Redes</span><span class="skill__level" style="--level: 75%"></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: Projetos / Cases -->
+    <section id="projetos" class="section section--projetos" aria-labelledby="projetos-title">
+      <div class="container">
+        <header class="section__header">
+          <h2 id="projetos-title" class="section__title">
+            <span class="section__bracket">[</span> Projetos <span class="section__bracket">]</span>
+          </h2>
+          <p class="section__subtitle">Cases de estudo, ferramentas e aplicações reais</p>
+        </header>
+
+        <!-- Filtros/Abas acessíveis -->
+        <div class="projetos__filters" role="tablist" aria-label="Filtrar projetos por categoria">
+          <button role="tab" class="filter-btn filter-btn--active" aria-selected="true" aria-controls="panel-todos" id="tab-todos" data-filter="all">Todos</button>
+          <button role="tab" class="filter-btn" aria-selected="false" aria-controls="panel-suporte" id="tab-suporte" data-filter="suporte">🖥️ Suporte & Automação</button>
+          <button role="tab" class="filter-btn" aria-selected="false" aria-controls="panel-sheets" id="tab-sheets" data-filter="sheets">📊 Google Sheets</button>
+          <button role="tab" class="filter-btn" aria-selected="false" aria-controls="panel-seg" id="tab-seg" data-filter="seguranca">🔐 Segurança</button>
+        </div>
+
+        <!-- Painel: Todos -->
+        <div role="tabpanel" id="panel-todos" aria-labelledby="tab-todos" class="projetos__panel projetos__panel--active">
+          <div class="projetos__grid" id="projects-grid-all"></div>
+        </div>
+
+        <!-- Painel: Suporte & Automação -->
+        <div role="tabpanel" id="panel-suporte" aria-labelledby="tab-suporte" class="projetos__panel" hidden>
+          <div class="projetos__grid" id="projects-grid-suporte"></div>
+        </div>
+
+        <!-- Painel: Google Sheets -->
+        <div role="tabpanel" id="panel-sheets" aria-labelledby="tab-sheets" class="projetos__panel" hidden>
+          <div class="projetos__grid" id="projects-grid-sheets"></div>
+        </div>
+
+        <!-- Painel: Segurança -->
+        <div role="tabpanel" id="panel-seg" aria-labelledby="tab-seg" class="projetos__panel" hidden>
+          <div class="projetos__grid" id="projects-grid-seg"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: Experiência / Formação -->
+    <section id="experiencia" class="section section--experiencia" aria-labelledby="exp-title">
+      <div class="container">
+        <header class="section__header">
+          <h2 id="exp-title" class="section__title">
+            <span class="section__bracket">[</span> Experiência <span class="section__bracket">]</span>
+          </h2>
+          <p class="section__subtitle">Trajetória profissional e marcos técnicos</p>
+        </header>
+
+        <!-- Timeline vertical (acessível via aria) -->
+        <ol class="timeline" aria-label="Linha do tempo profissional">
+          <li class="timeline__item">
+            <time class="timeline__date" datetime="2024-03">Mar 2024 — Atual</time>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Auxiliar Administrativo / Suporte Técnico</h3>
+              <p class="timeline__company">Hospital Santa Lúcia Sul — Brasília, DF</p>
+              <ul class="timeline__bullets">
+                <li>Suporte técnico presencial N1/N2 a médicos e setor administrativo, reduzindo tempo de inatividade de estações</li>
+                <li>Atendimento em call center hospitalar: agendamento, triagem de chamados e suporte às rotinas do setor</li>
+                <li>Escalonamento de incidentes e acompanhamento de métricas de servidores</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <time class="timeline__date" datetime="2023-07-2023-11">Jul 2023 — Nov 2023</time>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Estagiário de Cibersegurança</h3>
+              <p class="timeline__company">BlueEye Cibersegurança — Brasília, DF</p>
+              <ul class="timeline__bullets">
+                <li>Monitoramento ativo de endpoints e servidores de clientes com Symantec e Trellix</li>
+                <li>Investigação, perícia técnica e resolução de alertas de segurança (URLs/arquivos suspeitos), com escalonamento para N2/N3</li>
+                <li>Compilação e apresentação de relatórios mensais técnicos com documentação detalhada de incidentes e resoluções</li>
+              </ul>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <time class="timeline__date" datetime="2021-02-2022-07">Fev 2021 — Jul 2022</time>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Jovem Aprendiz — Administrativo Hospitalar</h3>
+              <p class="timeline__company">Hospital Santa Lúcia Norte — Brasília, DF</p>
+              <ul class="timeline__bullets">
+                <li>Suporte no fluxo de autorizações de procedimentos médicos</li>
+                <li>Organização de faturamento por convênios e gestão documental do setor</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: Formação -->
+    <section id="formacao" class="section section--formacao" aria-labelledby="formacao-title">
+      <div class="container">
+        <header class="section__header">
+          <h2 id="formacao-title" class="section__title">
+            <span class="section__bracket">[</span> Formação <span class="section__bracket">]</span>
+          </h2>
+          <p class="section__subtitle">Formação acadêmica</p>
+        </header>
+
+        <ol class="timeline" aria-label="Linha do tempo acadêmica">
+          <li class="timeline__item">
+            <time class="timeline__date" datetime="2026-2027">2026 — Dez 2027 (cursando)</time>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Análise e Desenvolvimento de Sistemas</h3>
+              <p class="timeline__company">UDF — Centro Universitário do Distrito Federal</p>
+              <ul class="timeline__bullets">
+                <li>Foco em desenvolvimento, banco de dados, segurança da informação e metodologias ágeis</li>
+                <li>Projetos práticos: automação, APIs, monitoramento e suporte técnico</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SEÇÃO: Contato -->
+    <section id="contato" class="section section--contato" aria-labelledby="contato-title">
+      <div class="container">
+        <header class="section__header">
+          <h2 id="contato-title" class="section__title">
+            <span class="section__bracket">[</span> Contato <span class="section__bracket">]</span>
+          </h2>
+          <p class="section__subtitle">Vamos conversar? Abra uma issue ou mande um e-mail direto</p>
+        </header>
+
+        <div class="contato__grid">
+          <!-- Formulário com validação JS -->
+          <form class="contato__form" id="contact-form" novalidate aria-label="Formulário de contato">
+            <div class="form__group">
+              <label for="nome" class="form__label">Nome <span class="form__required" aria-hidden="true">*</span></label>
+              <input type="text" id="nome" name="nome" class="form__input" required autocomplete="name" aria-describedby="nome-error">
+              <span id="nome-error" class="form__error" aria-live="polite"></span>
+            </div>
+            <div class="form__group">
+              <label for="email" class="form__label">E-mail <span class="form__required" aria-hidden="true">*</span></label>
+              <input type="email" id="email" name="email" class="form__input" required autocomplete="email" aria-describedby="email-error">
+              <span id="email-error" class="form__error" aria-live="polite"></span>
+            </div>
+            <div class="form__group">
+              <label for="assunto" class="form__label">Assunto</label>
+              <select id="assunto" name="assunto" class="form__select" aria-describedby="assunto-error">
+                <option value="">Selecione...</option>
+                <option value="freelance">Freelance / Consultoria</option>
+                <option value="seguranca">Segurança / Pentest</option>
+                <option value="backend">Backend / Arquitetura</option>
+                <option value="mentoria">Mentoria / Carreira</option>
+                <option value="outro">Outro</option>
+              </select>
+              <span id="assunto-error" class="form__error" aria-live="polite"></span>
+            </div>
+            <div class="form__group">
+              <label for="mensagem" class="form__label">Mensagem <span class="form__required" aria-hidden="true">*</span></label>
+              <textarea id="mensagem" name="mensagem" class="form__textarea" rows="5" required aria-describedby="msg-error"></textarea>
+              <span id="msg-error" class="form__error" aria-live="polite"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Enviar Mensagem</button>
+            <p class="form__status" id="form-status" aria-live="assertive" hidden></p>
+          </form>
+
+          <!-- Links rápidos / Perfis técnicos -->
+          <aside class="contato__links" aria-labelledby="links-title">
+            <h3 id="links-title" class="contato__links-title">Contatos & Perfis</h3>
+            <ul class="contato__list" role="list">
+              <li><a href="https://github.com/GustavoMendesPereira" target="_blank" rel="noopener noreferrer" class="contato__link"><span class="contato__icon" aria-hidden="true">⌘</span> GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/gustavo-mendes-pereira/" target="_blank" rel="noopener noreferrer" class="contato__link"><span class="contato__icon" aria-hidden="true">🔗</span> LinkedIn</a></li>
+              <li><a href="mailto:contato.gustavomp@gmail.com" class="contato__link"><span class="contato__icon" aria-hidden="true">📧</span> contato.gustavomp@gmail.com</a></li>
+              <li><a href="tel:+5561991581433" class="contato__link"><span class="contato__icon" aria-hidden="true">📱</span> (61) 99158-1433</a></li>
+            </ul>
+            <p class="contato__note">
+              Disponível para oportunidades em <strong>Suporte Técnico N1/N2</strong>, <strong>Service Desk</strong> e <strong>Segurança da Informação (monitoramento/analista jr)</strong> — Remoto ou Presencial (DF).
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p class="footer__copy">
+        DevSec Portfolio — Gustavo Mendes Pereira
+      </p>
+      <p class="footer__rights">© 2025 <a href="#" class="footer__link">Gustavo Mendes Pereira</a> — Licença MIT para código, CC-BY-4.0 para conteúdo.</p>
+      <nav class="footer__nav" aria-label="Navegação do rodapé">
+        <a href="#sobre" class="footer__link">Sobre</a>
+        <a href="#projetos" class="footer__link">Projetos</a>
+        <a href="#experiencia" class="footer__link">Experiência</a>
+        <a href="#formacao" class="footer__link">Formação</a>
+        <a href="#contato" class="footer__link">Contato</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Script principal (defer = executa após HTML parseado) -->
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>
